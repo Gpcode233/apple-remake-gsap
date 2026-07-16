@@ -40,7 +40,7 @@ const ProductViewer = () => {
             </div>
         </div>
 
-        <Canvas id="canvas" camera={{ position: [0, 2, 5], fov: 50, near: 0.1, far: 1000 }}>
+        <Canvas id="canvas" dpr={[1, 2]} camera={{ position: [0, 2, 5], fov: 50, near: 0.1, far: 1000 }}>
             <StudioLight />
 
             <MacbookModel14 scale={0.06} position={[0, 0, 0]} />
